@@ -20,7 +20,7 @@ currently simply sums up the single prices ignoring the currencies.
 Early adopters may use this feature in own projects on their own risk.
 You can also use the ALP with the standard OData parser, but then some features like grouping in the table are not available.
 
-![](https://github.com/SAP-samples/cap-sflight/workflows/CI/badge.svg)
+![Badge](https://github.com/SAP-samples/cap-sflight/workflows/CI/badge.svg)
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cap-sflight)](https://api.reuse.software/info/github.com/SAP-samples/cap-sflight)
 
 ## Run locally
@@ -29,7 +29,7 @@ You can also use the ALP with the standard OData parser, but then some features 
 
 In the root folder of your project, run
 
-```
+```bash
 npm ci
 cds watch
 ```
@@ -38,7 +38,7 @@ cds watch
 
 In the root folder of your project, run
 
-```
+```bash
 npm ci
 mvn spring-boot:run
 ```
